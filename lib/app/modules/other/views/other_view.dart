@@ -9,13 +9,13 @@ class OtherView extends BasePageScreen<OtherController> with BaseScreen {
   @override
   Widget appBar() {
     return AppBar(
-      title: Text('OtherView'),
+      title: const Text('OtherView'),
       centerTitle: true,
     );
   }
 
   @override
   Widget body() {
-    return CenterText(text: "Other view");
+    return const CenterText(text: "Other view");
   }
 }

@@ -8,13 +8,14 @@ class CenterText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_unnecessary_containers
     return Container(
       child: Column(
         children: [
           Flexible(
             child: Center(
               child: Padding(
-                padding: EdgeInsets.all(30),
+                padding: const EdgeInsets.all(30),
                 child: Text(text,
                   textAlign: TextAlign.center,
                   style: textStyle),

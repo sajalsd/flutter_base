@@ -11,7 +11,7 @@ class HomeView extends BasePageScreen<HomeController> with BaseScreen {
   @override
   Widget appBar() {
     return AppBar(
-      title: Text('HomeView'),
+      title: const Text('HomeView'),
       centerTitle: true,
     );
   }
@@ -31,7 +31,7 @@ class HomeView extends BasePageScreen<HomeController> with BaseScreen {
         // controller.increment();
         Get.toNamed(Routes.OTHER);
       },
-      child: Icon(Icons.add),
+      child: const Icon(Icons.add),
     );
   }
 }

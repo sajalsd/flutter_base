@@ -9,6 +9,6 @@ abstract class BasePageScreen<Controller extends GetxController> extends GetView
   }
 
   Function retryFunctionOnNoNetwork() {
-    return () {};
+    return null;
   }
 }

@@ -5,18 +5,20 @@ class HomeController extends BaseController {
   final _count = 0.obs;
   get count => _count.value;
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
+  // @override
+  // void onInit() {
+  //   super.onInit();
+  // }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
+  // @override
+  // void onReady() {
+  //   super.onReady();
+  // }
 
-  @override
-  void onClose() {}
+  // @override
+  // void onClose() {
+  //   super.onClose();
+  // }
 
   void increment() => _count.value++;
 }
