@@ -7,7 +7,7 @@ import 'package:flutter_base/app/modules/other/controllers/other_controller.dart
 class OtherView extends BasePageScreen<OtherController> with BaseScreen {
 
   @override
-  Widget appBar() {
+  PreferredSizeWidget appBar() {
     return AppBar(
       title: const Text('OtherView'),
       centerTitle: true,

@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 
 class HomeView extends BasePageScreen<HomeController> with BaseScreen {
   @override
-  Widget appBar() {
+  PreferredSizeWidget appBar() {
     return AppBar(
       title: const Text('HomeView'),
       centerTitle: true,

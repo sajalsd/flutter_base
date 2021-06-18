@@ -27,7 +27,7 @@ mixin BaseScreen<Controller extends GetxController> on BasePageScreen<Controller
 
   Widget body();
 
-  Widget appBar();
+  PreferredSizeWidget appBar();
 
   Color pageBackgroundColor(){
     return AppColors.pageBackground;
@@ -37,11 +37,11 @@ mixin BaseScreen<Controller extends GetxController> on BasePageScreen<Controller
     return Container();
   }
 
-  Widget bottomNavigationBar(){
+  Widget? bottomNavigationBar(){
     return null;
   }
 
-  Widget drawer() {
+  Widget? drawer() {
     return null;
   }
 

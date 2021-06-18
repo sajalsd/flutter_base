@@ -3,13 +3,16 @@ version: 1.0.0+1
 publish_to: none
 description: A new Flutter application.
 environment: 
-  sdk: '>=2.7.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   cupertino_icons: ^1.0.2
   get: 4.1.4
   flutter: 
     sdk: flutter
+  flutter_svg: ^0.22.0
+  dio: ^4.0.0
+  shared_preferences: ^2.0.6
 
 dev_dependencies: 
   flutter_test: 

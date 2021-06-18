@@ -4,7 +4,7 @@ import 'package:flutter_base/app/core/values/text_styles.dart';
 class CenterText extends StatelessWidget {
   final String text;
   final TextStyle textStyle;
-  const CenterText({Key key, @required this.text, this.textStyle = centerTextStyle}) : super(key: key);
+  const CenterText({Key? key, required this.text, this.textStyle = centerTextStyle}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

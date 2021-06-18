@@ -8,7 +8,7 @@ abstract class BasePageScreen<Controller extends GetxController> extends GetView
     Get.back();
   }
 
-  Function retryFunctionOnNoNetwork() {
+  Function? retryFunctionOnNoNetwork() {
     return null;
   }
 }
