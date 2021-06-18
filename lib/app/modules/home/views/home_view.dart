@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base/app/core/values/app_strings.dart';
 import 'package:flutter_base/app/core/widget/center_text.dart';
-import 'package:flutter_base/app/modules/base/views/base_page_screen.dart';
-import 'package:flutter_base/app/modules/base/views/base_screen.dart';
+import 'package:flutter_base/app/core/view/base_page_screen.dart';
+import 'package:flutter_base/app/core/view/base_screen.dart';
 import 'package:flutter_base/app/modules/home/controllers/home_controller.dart';
 import 'package:flutter_base/app/routes/app_pages.dart';
 import 'package:get/get.dart';

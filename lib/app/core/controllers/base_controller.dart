@@ -1,4 +1,4 @@
-import 'package:flutter_base/app/modules/base/model/page_state.dart';
+import 'package:flutter_base/app/core/model/page_state.dart';
 import 'package:get/get.dart';
 
 abstract class BaseController extends GetxController {

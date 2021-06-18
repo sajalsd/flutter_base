@@ -1,4 +1,4 @@
-import 'package:flutter_base/app/modules/base/controllers/base_controller.dart';
+import 'package:flutter_base/app/core/controllers/base_controller.dart';
 import 'package:get/get.dart';
 
 class HomeController extends BaseController {
